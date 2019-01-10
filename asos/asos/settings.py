@@ -14,6 +14,9 @@ BOT_NAME = 'asos'
 SPIDER_MODULES = ['asos.spiders']
 NEWSPIDER_MODULE = 'asos.spiders'
 
+FEED_URI = 'data/%(name)s/%(time)s.json'
+FEED_FORMAT = 'json'
+
 
 # Crawl responsibly by identifying yourself (and your website) on the user-agent
 #USER_AGENT = 'asos (+http://www.yourdomain.com)'
